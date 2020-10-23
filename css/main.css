@@ -181,6 +181,7 @@ h1 {
 .item-quality {
     display: flex;
     margin-top: 0;
+    margin-bottom: 0;
     padding-top: 94px;
     padding-left: 0;
     padding-bottom: 94px;
@@ -212,7 +213,7 @@ h1 {
 }
 
 /* Occupation */
-.occupation > h2 {
+.occupation .occupation-header {
     color: var(--heading-h2-h6-color);
 
     font-weight: 700;
