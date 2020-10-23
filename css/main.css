@@ -31,6 +31,12 @@ p {
     margin-top: 0;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -214,12 +220,24 @@ h1 {
 
 /* Occupation */
 .occupation .occupation-header {
+    margin-bottom: 50px;
+
     color: var(--heading-h2-h6-color);
 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
+}
+
+.occupation-list {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+}
+
+.occupation-list .occupation-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* Team */
