@@ -178,6 +178,24 @@ h1 {
 }
 
 /* Quality */
+.item-quality {
+    display: flex;
+    margin-top: 0;
+    padding-top: 94px;
+    padding-left: 0;
+    padding-bottom: 94px;
+    
+}
+
+.item-quality .list {
+    width: 270px;
+    height: 101px;
+}
+
+.item-quality .list:not(:last-child) {
+    margin-right: 30px;
+}
+
 .item-quality h2 {
     color: var(--heading-h2-h6-color);
 
