@@ -24,8 +24,44 @@ a {
     text-decoration: none;
 }
 
+h1, 
+h2, 
+h3, 
+p {
+    margin-top: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    outline: 2px solid tomato;
+}
+
 /* Header */
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.container-nav {
+    display: flex;
+}
+
 .logo {
+    padding-bottom: 25px;
+    padding-top: 24px;
+    margin-right: 93px;
+
     color: #212121;
 
     font-family: 'Raleway', sans-serif;
@@ -38,7 +74,22 @@ a {
     color: #2196F3;
 }
 
+.list-nav {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.list-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .list-nav .header-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--secondary-text-color);
 
     font-weight: 500;
@@ -61,7 +112,19 @@ a {
     color: var(--backlight-color);
 }
 
+.item-link {
+    display: flex;
+    margin-left: auto;
+    padding-left: 0;
+}
+
+.item-link .item + .item {
+    margin-left: 50px;
+}
+
 .item-link .contacts-link {
+    display: block;
+
     color: var(--primary-text-color);
 
     font-weight: 500;
@@ -76,6 +139,28 @@ a {
 }
 
 /* Main Section */
+
+/* Filter */
+.container-filter {
+    height: 183px;
+}
+
+.filter {
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.filter .btn:not(:last-child) {
+    margin-right: 8px;
+}
+
+.filter .btn {
+    padding-top: 94px;
+}
+
 .filter button {
     color: var(--secondary-text-color);
 
@@ -95,6 +180,7 @@ a {
     border-color: var(--backlight-color);
 }
 
+/* Job List */
 .job-list h2 {
     color: var(--heading-h2-h6-color);
 

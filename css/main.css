@@ -43,8 +43,6 @@ img {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
-    outline: 2px solid tomato;
 }
 
 /* Header */
@@ -115,6 +113,7 @@ img {
 .item-link {
     display: flex;
     margin-left: auto;
+    padding-left: 0;
 }
 
 .item-link .item + .item {
@@ -314,13 +313,33 @@ footer {
     height: 252px;
 }
 
+.logo-footer {
+    display: inline-block;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 20px 215px;
+}
+
+.item-address {
+    margin-left: 215px;
+}
+
+.contacts-street {
+    width: 231px;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts-list:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 .logo .logo-two {
     color: #FFFFFF;
 }
 
 .item-address .street {
     color: #FFFFFF;
-    background-color: #2F303A; /*для отображения цвета*/
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7px;
@@ -329,7 +348,6 @@ footer {
 
 .contacts-footer {
     color: rgba(255, 255, 255, 0.6);            
-    background-color: #2F303A;        /*для отображения цвета*/
 
     font-weight: 400;
     font-size: 14px;
