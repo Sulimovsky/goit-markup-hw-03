@@ -1,0 +1,180 @@
+/* Главный цвет на странице  #757575; */
+/* Цвет заголовков h2-h6 #212121;*/
+/* Цвет навигации #212121; */
+/* Цвет подсветки #2196F3; */
+/* Вторичный цвет+h1 #FFFFFF;*/
+/* Цвет контактов в футере rgba(255, 255, 255, 0.6); */
+:root {
+    --primary-text-color: #757575;
+    --heading-h2-h6-color: #212121; 
+    --backlight-color: #2196F3;
+    --secondary-text-color: #212121; 
+}
+
+body {
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header */
+.logo {
+    color: #212121;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.logo .logo-one {
+    color: #2196F3;
+}
+
+.list-nav .header-link {
+    color: var(--secondary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.header-link .location {
+    color: var(--backlight-color);
+}
+
+.header-link .location:focus,
+.header-link .location:hover {
+    color: var(--secondary-text-color);
+}
+
+.list-nav .header-link:hover,
+.list-nav .header-link:focus {
+    color: var(--backlight-color);
+}
+
+.item-link .contacts-link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.item-link .contacts-link:hover,
+.item-link .contacts-link:focus {
+    color: var(--backlight-color);
+}
+
+/* Hero */
+h1 {
+    color: #FFFFFF;
+    background-color: #2F303A;  /*для отображения заголовка*/
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.service-order {
+    color: #FFFFFF;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Quality */
+.item-quality h2 {
+    color: var(--heading-h2-h6-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.item-quality .description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Occupation */
+.occupation > h2 {
+    color: var(--heading-h2-h6-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Team */
+.title-team {
+    color: var(--heading-h2-h6-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.heading-name {
+    color: var(--heading-h2-h6-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.work {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+}
+
+/* Footer */
+footer {
+    background-color: #2F303A;
+}
+
+.logo .logo-two {
+    color: #FFFFFF;
+}
+
+.item-address .street {
+    color: #FFFFFF;
+    background-color: #2F303A; /*для отображения цвета*/
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
+    font-style: normal;
+}
+
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);            
+    background-color: #2F303A;        /*для отображения цвета*/
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+}
