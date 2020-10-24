@@ -198,8 +198,6 @@ p {
 .job-list .item {
     width: calc((100% - 60px) / 3);
 
-    /* width: 370px;
-    height: 404px; */
     border: 1px solid #EEEEEE;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -229,6 +227,7 @@ p {
 }
 
 .job-list p {
+    margin-bottom: 20px;
     padding-left: 24px;
 
     font-weight: normal;
