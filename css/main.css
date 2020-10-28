@@ -150,6 +150,7 @@ p {
 }
 
 .container-width {
+    padding-top: 200px;
     width: 630px;
     height: 600px;
     margin-left: auto;
@@ -158,7 +159,6 @@ p {
 }
 
 h1 {
-    padding-top: 200px;
     margin-bottom: 30px;
 
     color: #FFFFFF;
